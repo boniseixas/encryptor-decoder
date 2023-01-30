@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encryptor Decoder</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo-alura" src="/imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+      <section>
+        <textarea class="text-area" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+
+        <div class="alerta">
+          <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+        
+        <div class="botoes">
+          <button class="btn-encrypt" onclick="btnEncryptar()">Encriptografar</button>
+          <button class="btn-descrypt" onclick="btnDesencryptar()">Descriptografar</button>
+        </div>
+      </section>
+
+      <section>
+        <textarea class="textarea-mensagem-encriptada" cols="30" rows="10"></textarea>
+        <!--<img src="/imagens/sherlock-holmes.jpg" alt="Imagem de Sherlock Holmes" width="300" height="300">-->
+        <!--<button class="btn-copiar">Copiar</button>-->
+        <input type="button" value="Copiar">
+      </section>
+    </main>
+    
+    <footer>
+      <p></p>
+      <a href="https://github.com/boniseixas"><img class="github" src="/imagens/github.png" alt="Logo do GitHub"></a>
+      <a href="https://www.linkedin.com/in/boni-seso/"><img class="linkedin" src="/imagens/linkedin.png" alt="Logo do linkedin"></a>
+    </footer>
+    <script src="logicaEncryptDecoder.js"></script>
+  </body>
+</html>
